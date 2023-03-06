@@ -1,13 +1,22 @@
-# Djackets | Django
+# Django Ecommerce API
 
-Learn how to build an e-commerce website using Django and Vue
+## Introduction
+This is an Ecommerce API built with Django that allows users to register, login, and search for products. It includes user authentication to ensure that only registered users can access the API.
 
-This repository is a part of a video tutorial on my YouTube channel: Code With Stein
+## Features
+The following are the features of the Ecommerce API:
 
-My channel:
-[CodeWithStein](https://www.youtube.com/channel/UCfVoYvY8BfTDeF63JQmQJvg/?sub_confirmation=1)
+- User authentication: allows users to register, login, and logout.
+- Search products by name or category.
+- Simple and intuitive API interface.
 
-## Author
-This repository and video is created by CodeWithStein. Check out my website for more information.
+## Usage
+The Ecommerce API has a simple and intuitive interface that allows users to easily search for products. Here's how to use it:
 
-[Code With Stein - Website](https://codewithstein.com)
+- Register an account by sending a POST request 
+- Login with your newly created account by sending a POST request 
+- Search for products by sending a GET request 
+- Logout by sending a POST request 
+
+## Conclusion
+In conclusion, this Django Ecommerce API is a simple tool for retrieving products and searching for products by name, category, or description. It includes user authentication to ensure that only registered users can access the API. With the use of Django, it provides a fast and reliable performance. The API endpoints provide a simple way to integrate with other applications. The search functionality makes it easy to find products. Overall, this project demonstrates the use of best practices in building a robust and efficient Ecommerce API.
